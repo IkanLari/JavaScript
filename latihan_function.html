@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="kotak">
+    <div>
+        Barang:
+        <select id="listbarang">
+            <option value="Buku" selected>Buku</option>
+            <option value="Tas">Tas</option>
+            <option value="Tas">Pensil</option>
+            <option value="Tas">Penghapus</option>
+        </select>
+        <button id="tambah" onclick="cek_barang()">cek barang</button>
+    </div>
+    <div>
+        Jumlah:
+        <input type="text" id="jumlah" style="height: 20px;">
+    </div>
+    <div id="barang"></div>
+    <div id="total"></div>
+    </div>
+</body>
+</html>

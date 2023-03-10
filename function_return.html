@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Return</title>
+</head>
+<body>
+    <script>
+        // function penjumlahan() {
+        //     // Mendeklarasikan penjumlahan
+        //     let angka1 = 10;
+        //     let angka2 = 20;
+        //     let hasil = angka1 + angka2;
+        //     return hasil;
+        // }
+        // document.writeln("Hasil penjumlahan = " + penjumlahan());
+
+        // function getFinalValue(nilai) {
+        //     if(nilai > 90) {
+        //         return "A"
+        //     } else if(nilai > 80) {
+        //         return "B"
+        //     } else {
+        //         return "E"
+        //     }
+        // }
+        // const nilaiUjian = getFinalValue(100);
+        // document.writeln(nilaiUjian);
+
+        // function tambah(a,b) {
+        //     hasilPenjumlahan = a+b;
+        //     document.writeln(hasilPenjumlahan);
+        //     // return (hasilPenjumlahan);
+        // }
+        // tambah (10,20)
+
+        const fungsiPerkalian = function() {
+            // Mendeklarasikan angka untuk di kalikan
+            let angka1 = prompt("Masukan angka pertama");
+            let angka2 = prompt("Masukan angka ke dua");
+            let hasilPerkalian = angka1*angka2;
+            // Mengembalikan hasil perkalian
+            return hasilPerkalian;
+        }
+        document.writeln(fungsiPerkalian()); 
+    </script>
+</body>
+</html>

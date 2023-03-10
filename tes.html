@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Length berfungsi untuk memberi tahu seberapa banyak huruf/angka pada variabel
+        let a = "QWERTYUIOPASDFGHJKLZXCVBNM";
+        document.writeln(a.length, "<br>", "<br>");
+
+        // Slice berfungsi untuk memotong/memisahkan kalimat/kata
+        let b = "Kapibara";
+        document.writeln(b.slice(-3), "<br>", "<br>");
+
+        // Substring sama seperti slice, bedanya value tidak bisa menggunakan kurang dari 0
+        let c = "Kapibara ara~"
+        document.writeln(c.substring(5), "<br>", "<br>");
+
+        // Substr sama seperti slice, bedanya parameter kedua menentukan lenght yang diekstraksi
+        let d = "Kapibara ara~ one-chan"
+        document.writeln(d.substr(5,17), "<br>", "<br>")
+    </script>
+</body>
+</html>
